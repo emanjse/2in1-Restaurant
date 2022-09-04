@@ -1,4 +1,4 @@
 import React from "react";
  export default function Menu() {
-    return <div>Menu</div>
+    return <div id="menu">Menu </div>
  }

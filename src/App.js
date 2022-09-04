@@ -3,14 +3,15 @@ import { Routes, Route} from "react-router-dom";
 import './App.css';
 import Home from './pages/Home';
 import Menu from './pages/Menu';
+import Navbar from './components/Navbar';
 
 export default function App() {
   return (
     <div>
-        <h1>Welcome to React Router!</h1>
+      <Navbar/>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="about" element={<Menu />} />
+        <Route path="menu" element={<Menu />} />
       </Routes>
     </div>
 

@@ -1,3 +1,34 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/* start navbar */
+.navbar .navbar-nav .nav-link{
+	color:white;
+    font-size:20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar .navbar-nav .nav-link.active{
+	color: #FE994A;
+
+}
+.navbar-nav .button{
+    color: white;
+    background-color:#ff7418;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+.navbar-nav .button:hover{
+ padding-right: 20px;
+ border: 2px solid white;
+}
+.navbar .navbar-toggler {
+    color: rgb(255, 116, 24);
+}
+.navbar .navbar-toggler-icon {
+    background-image: url(
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255, 255, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+/* end navbar */
