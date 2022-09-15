@@ -30,7 +30,7 @@ function Footer() {
             <ul class=" locations">
               <li class="d-flex">
               <div class="mr-4"> <GoLocation/> </div>
-                <a href='https://goo.gl/maps/BmYB3hAYQZk5FooP7'>Erbil,IRAQ English Village Next to Ethno Gym</a>
+                <a href='https://goo.gl/maps/BmYB3hAYQZk5FooP7'>Erbil,English Village Next to Ethno Gym</a>
               </li>
               <li class="d-flex ">
               <div class="mr-4"> <GoLocation/> </div>

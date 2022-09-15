@@ -1,0 +1,77 @@
+.form {
+	padding: 5rem 0;
+}
+
+.BookTable{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    height: 10rem;
+    background: url(../image/BookTableBackground.jpg);
+    background-position: center;
+  }
+
+  .BookTable h3{
+  color: #f76e11;
+   font-size: 3rem;
+  }
+
+.form__wrapper {
+	padding: 3rem 0;
+}
+.form__wrapper form {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 2rem;
+}
+.form__group label {
+	font-size: 1.8rem;
+	font-family: Poppins;
+	color: #FE994A;
+	font-weight: 500;
+}
+
+.btn4{
+    padding: 10px 50px;
+    border-radius: 3px;
+	font-weight:500;
+    font-size: 1.2em;
+	color: white;
+    background-color:#ff7418;
+}
+.btn4:hover{
+	letter-spacing: .2rem;
+}
+
+.form__group input,
+.form__group textarea,
+.form__group select {
+	width: 100%;
+    height: 65px;
+	border: none;
+	background-color: #373737;
+	font-family: Raleway;
+	border-radius: 8px;
+}
+.form__group textarea {
+	resize: vertical;
+}
+
+@media only screen and (min-width: 768px) {
+	.form__wrapper {
+		padding: 5rem 0;
+	}
+	.form__wrapper form {
+		grid-template-columns: 1fr 1fr;
+	}
+	.form__group__full {
+		grid-column: 1/3;
+	}
+	.form__group input,
+	.form__group textarea,
+	.form__group select {
+		padding: 1rem;
+		margin-top: 1.5rem;
+	}
+}

@@ -1,11 +1,4 @@
-.button{
-    padding: 8px 16px;
-    border-radius: 3px;
-	font-weight:500;
-}
-.button:hover{
-	letter-spacing: .2rem;
-}
+
 /* start navbar */
 .navbar{
     background: #232323;

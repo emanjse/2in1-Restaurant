@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../image/logo.png";
+import { NavLink} from "react-router-dom";
 
 
 
@@ -39,9 +40,13 @@ import logo from "../image/logo.png";
               </li>
 
             </ul>
+
             <ul class="navbar-nav  ml-auto text-center">
+            <NavLink to="BookTable">
                 <li><button  class="button btn1" >BookTable</button></li>
+            </NavLink>
             </ul>
+
 
           </div>
 
