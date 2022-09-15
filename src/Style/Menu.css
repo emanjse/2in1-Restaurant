@@ -1,0 +1,38 @@
+.Menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    height: 10rem;
+    background: url(../image/MenuBackground.jpeg);
+    background-position: center;
+  }
+
+  .Menu h3{
+  color: #f76e11;
+   font-size: 3rem;
+  }
+
+  .filter-btn {
+      border: 1px solid #fff;
+      padding: 7px 25px;
+      margin-left: 15px;
+      color: #fff;
+      border-radius: 5px;
+    }
+
+    .active__btn {
+      border: 1px solid #f76e11;
+      color: #FE994A;
+    }
+
+
+
+
+    @media only screen and (max-width: 767px) {
+      .filter-btn {
+        margin-bottom: 15px;
+      }
+    }
+
+
