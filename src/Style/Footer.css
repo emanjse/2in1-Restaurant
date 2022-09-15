@@ -1,0 +1,53 @@
+.footer {
+  background-color: #262626;
+  padding: 7rem 0;
+  color: #888;
+  font-size: 16px;
+ }
+
+  .footer, .footer h3 {
+    font-family: "Poppins", sans-serif;
+   }
+
+  .footer h3 {
+    font-size: 25px;
+    color: #FE994A;
+    margin-bottom: 30px;
+   }
+  .footer p {
+    font-family: "Source Serif Pro", serif;
+  }
+
+  .footer .quick-info li a {
+    color: #fff; }
+
+
+  .footer .locations li a {
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-style: italic;
+    font-family: "Source Serif Pro", serif; }
+
+
+  .footer .row.Footer-pic {
+    margin-right: -5px;
+    margin-left: -5px;
+}
+
+
+    .footer .row.Footer-pic > [class^="col-"],
+    .footer .row.Footer-pic > [class*=" col-"] {
+      padding-right: 5px;
+      padding-left: 5px;
+    }
+
+  .footer .Footer-pic a {
+    display: block;
+    margin-bottom: 10px;
+}
+
+    .footer .Footer-pic a:hover {
+      opacity: .5;
+    }
+

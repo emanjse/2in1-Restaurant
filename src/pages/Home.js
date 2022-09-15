@@ -1,6 +1,6 @@
 import React from "react";
-import hero1 from "../image/heroPic1.jpg"
-import hero2 from "../image/heroPic2.jpg"
+import hero1 from "../image/heroPic1.jpg";
+import hero2 from "../image/heroPic2.jpg";
 import '../Style/HeroSec.css';
 import CategoriesSec from "../components/CategoriesSec";
 
@@ -37,9 +37,11 @@ import CategoriesSec from "../components/CategoriesSec";
         </div>
       </section>
 
-<section>
-  <CategoriesSec/>
-</section>
+      <section>
+        <CategoriesSec/>
+      </section>
+
+
 
 
         </secction>

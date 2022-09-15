@@ -17,7 +17,7 @@ function CategoriesSec(){
                 <h2 class="fw-bold mb-5"> Explore Our Menu</h2>
               </div>
 
-          <div class="MenuSec__wrapper">
+          <div class="MenuSec__wrapper pb-5">
           <NavLink to={"/Menu"}>
           <div class="MenuSec__item" >
               <div class="MenuSec__svg">

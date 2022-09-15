@@ -10,7 +10,9 @@ html , section{
 	color: white;
 }
 section {
-	padding-block-start: 75px;
+	padding-block-start: 70px;
+	padding-block-end: 70px;
+
 }
 
 
