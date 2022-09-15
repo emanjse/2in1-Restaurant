@@ -1,0 +1,32 @@
+/*productcard css*/
+.single__product {
+    border-radius: 10px;
+    background: #292929;
+    cursor: pointer;
+    animation: animate 1s ease-in;
+  }
+
+  .single__product:hover {
+    box-shadow: 5px 5px 10px -5px #FE994A;
+  }
+
+  .single__product h6 {
+    color: #fff;
+    text-align: center;
+  }
+
+  .product__price h6 span {
+    color:#FE994A;
+    font-weight: 500;
+  }
+
+
+  @keyframes animate {
+    from {
+      transform: scale(0);
+    }
+    to {
+      transform:scale(1)}
+  }
+
+ 
