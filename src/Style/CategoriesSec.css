@@ -1,0 +1,36 @@
+.section-title{
+	color:white;
+}
+ .MenuSec__wrapper {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 1rem;
+}
+.MenuSec__item {
+	background-color: #2b2a2a;
+	padding: 20px 20px;
+	text-align: center;
+	border-radius: 12px;
+	width: 200px;
+}
+.MenuSec__svg {
+	width: 45px;
+	margin: 0 auto;
+	margin-bottom: 12px;
+}
+.MenuSec__title {
+	font-size: 1.3rem;
+	font-family: Poppins;
+	font-weight: 500;
+	margin-bottom: 0.5rem;
+	color: #fff;
+}
+.btn2{
+	color: white;
+    background-color:#ff7418;
+}
+.btn2{
+	color: white;
+    background-color:#ff7418;
+}

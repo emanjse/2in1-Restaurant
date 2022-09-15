@@ -2,6 +2,7 @@ import React from "react";
 import hero1 from "../image/heroPic1.jpg"
 import hero2 from "../image/heroPic2.jpg"
 import '../Style/HeroSec.css';
+import CategoriesSec from "../components/CategoriesSec";
 
 
  export default function Home() {
@@ -36,6 +37,9 @@ import '../Style/HeroSec.css';
         </div>
       </section>
 
+<section>
+  <CategoriesSec/>
+</section>
 
 
         </secction>
