@@ -3,6 +3,8 @@ import logo from "../image/logo.png";
 
 
 
+
+
  const Navbar = () => {
     return (
 <nav class="navbar navbar-expand-md fixed-top ">
@@ -27,7 +29,7 @@ import logo from "../image/logo.png";
                 <a class="nav-link  active" aria-current="page" href="/">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link " href="/menu">Menu</a>
+                <a class="nav-link " href="/Menu">Menu</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="/about">About</a>
@@ -38,7 +40,7 @@ import logo from "../image/logo.png";
 
             </ul>
             <ul class="navbar-nav  ml-auto text-center">
-                <li><button  class="button" >BookTable</button></li>
+                <li><button  class="button btn1" >BookTable</button></li>
             </ul>
 
           </div>
