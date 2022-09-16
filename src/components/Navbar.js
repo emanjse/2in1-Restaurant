@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../image/logo.png";
-import { NavLink} from "react-router-dom";
+import { NavLink, Link} from "react-router-dom";
 
 
 
@@ -29,11 +29,13 @@ import { NavLink} from "react-router-dom";
               <li class="nav-item ">
                 <a class="nav-link  active" aria-current="page" href="/">Home</a>
               </li>
-              <NavLink to="/menu">
+
+              <Link to="/menu">
               <li class="nav-item">
                 <a class="nav-link " href="/menu">Menu</a>
               </li>
-              </NavLink>
+              </Link>
+
               <li class="nav-item">
                 <a class="nav-link" href="/about">About</a>
               </li>
@@ -44,7 +46,7 @@ import { NavLink} from "react-router-dom";
             </ul>
 
             <ul class="navbar-nav  ml-auto text-center">
-            <NavLink to="BookTable">
+            <NavLink to="/booktable">
                 <li><button  class="button btn1" >BookTable</button></li>
             </NavLink>
             </ul>
