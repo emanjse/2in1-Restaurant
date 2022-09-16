@@ -29,9 +29,11 @@ import { NavLink} from "react-router-dom";
               <li class="nav-item ">
                 <a class="nav-link  active" aria-current="page" href="/">Home</a>
               </li>
+              <NavLink to="/menu">
               <li class="nav-item">
                 <a class="nav-link " href="/menu">Menu</a>
               </li>
+              </NavLink>
               <li class="nav-item">
                 <a class="nav-link" href="/about">About</a>
               </li>
