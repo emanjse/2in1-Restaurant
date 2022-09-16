@@ -1,8 +1,10 @@
 import React from "react";
+import { NavLink} from "react-router-dom";
 import hero1 from "../image/heroPic1.jpg";
 import hero2 from "../image/heroPic2.jpg";
 import '../Style/HeroSec.css';
 import CategoriesSec from "../components/CategoriesSec";
+import OrderSec from "../components/OrderSec.js";
 
 
  export default function Home() {
@@ -19,8 +21,10 @@ import CategoriesSec from "../components/CategoriesSec";
             Each meal we serve is comprised of fresh and organic ingredients.We treat all of our customers with utmost care and service.
             </p>
             <div class="hero-btn d-flex pt-3 pb-3">
+            <NavLink to="/menu">
             <button class="button btn2 ">Our Menu</button>
-             <button class="button btn3 ml-3 ">Order</button>
+            </NavLink>
+            <a href="#order" className='button ml-3 btn3'>order</a>
             </div>
           </div>
 
@@ -39,6 +43,10 @@ import CategoriesSec from "../components/CategoriesSec";
 
       <section>
         <CategoriesSec/>
+      </section>
+
+      <section>
+        <OrderSec/>
       </section>
 
 

@@ -67,6 +67,9 @@
 	color: #ff7418;
     border: 1px solid #ff7418;
 }
+.btn3:hover{
+	color: #ff7418;
+}
 
 .hero-banner {
   display: grid;

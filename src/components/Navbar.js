@@ -30,7 +30,7 @@ import { NavLink} from "react-router-dom";
                 <a class="nav-link  active" aria-current="page" href="/">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link " href="/Menu">Menu</a>
+                <a class="nav-link " href="/menu">Menu</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="/about">About</a>
