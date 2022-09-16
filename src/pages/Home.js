@@ -21,8 +21,8 @@ import OrderSec from "../components/OrderSec.js";
             Each meal we serve is comprised of fresh and organic ingredients.We treat all of our customers with utmost care and service.
             </p>
             <div class="hero-btn d-flex pt-3 pb-3">
-            <NavLink to="/menu">
-            <button class="button btn2 ">Our Menu</button>
+            <NavLink to="menu">
+            <button class="button btn2">Our Menu</button>
             </NavLink>
             <a href="#order" className='button ml-3 btn3'>order</a>
             </div>
