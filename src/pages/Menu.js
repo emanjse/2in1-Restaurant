@@ -1,7 +1,6 @@
 import React,  {useState, useEffect } from "react";
 import {burgerProducts,pizzaProducts,desertProducts,drinkProducts,offerProducts} from "../components/Data";
 import ProductCard from "../components/ProductCard";
-import { Container, Row, Col } from "reactstrap";
 import '../Style/Menu.css';
 
 
