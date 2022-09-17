@@ -32,31 +32,31 @@ const Menu = () => {
 
   return (
    <section>
-     <Container>
+     <div class="container">
 
 <div class="Menu">
     <h3>Our Menu</h3>
 </div>
 
 
-       <Row>
+       <div class="row">
 
-         <Col lg="12" className="text-center my-5 ">
+         <div className="col-lg-12 text-center my-5 ">
            <button className={`filter-btn ${ filter === 'offer' ? 'active__btn' : ""}`}onClick={() => setFilter("offer")}>Offer </button>
            <button className={`filter-btn ${filter === "burger" ? "active__btn" : ""}`}onClick={() => setFilter("burger")}>Burger</button>
            <button className={`filter-btn ${filter === "pizza" ? "active__btn" : ''}`}onClick={() => setFilter("pizza")}>Pizza</button>
            <button className={`filter-btn ${filter === "desert" ? "active__btn" : ""}`}onClick={() => setFilter("desert")}>Desert</button>
            <button className={`filter-btn ${ filter === "drink" ? "active__btn" : ""}`}onClick={() => setFilter("drink")}>Drink</button>
-         </Col>
+         </div>
 
          {products.map((item) => (
-           <Col lg="3"  md='4' sm='6' xs='6' key={item.id} className="mb-4 ">
+           <div key={item.id} className="col-lg-3 col-md-4 col-sm-6 col-xs-6 mb-4 ">
              {" "}
              <ProductCard item={item} />
-           </Col>
+           </div>
          ))}
-       </Row>
-     </Container>
+       </div>
+     </div>
    </section>
  );
 };

@@ -225,4 +225,33 @@ export const offerProducts = [
   },
 
 ];
+export const popularProducts = [
+  {
+    id: "01",
+    title: "Double Cheese Burger",
+    price: 12000,
+    imgUrl: burger1,
+
+  },
+  {
+    id: "22",
+    title: "Grilled Chicken Burger",
+    price: 8000,
+    imgUrl: offer2,
+  },
+  {
+    id: "08",
+    title: "Mexican Pizza",
+    price: 10000,
+    imgUrl: pizza1,
+
+  },
+  {
+    id: "21",
+    title: "Swiss Mushroom Burger",
+    price: 9500,
+    imgUrl: offer1,
+  },
+
+];
 

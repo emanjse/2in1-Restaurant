@@ -5,6 +5,7 @@ import hero2 from "../image/heroPic2.jpg";
 import '../Style/HeroSec.css';
 import CategoriesSec from "../components/CategoriesSec";
 import OrderSec from "../components/OrderSec.js";
+import PopularProduct from "../components/PopularProduct.js";
 
 
  export default function Home() {
@@ -42,12 +43,18 @@ import OrderSec from "../components/OrderSec.js";
       </section>
 
       <section>
+          <PopularProduct/>
+          </section>
+
+
+      <section>
         <CategoriesSec/>
       </section>
 
       <section>
         <OrderSec/>
       </section>
+
 
 
 
