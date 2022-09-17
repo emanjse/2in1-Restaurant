@@ -41,20 +41,21 @@ import { NavLink, Link} from "react-router-dom";
                 <a class="nav-link" href="/about">About</a>
               </li>
               </Link>
-              
-               <NavLink to="/contact">
+
+               <Link to="/contact">
                <li class="nav-item">
                 <a class="nav-link" href="/contact">Contact</a>
               </li>
-               </NavLink>
-
+               </Link>
 
             </ul>
 
             <ul class="navbar-nav  ml-auto text-center">
-            <NavLink to="/booktable">
+
+            <Link to="/booktable">
                 <li><button  class="button btn1" >BookTable</button></li>
-            </NavLink>
+            </Link>
+
             </ul>
 
 
