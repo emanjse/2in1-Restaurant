@@ -35,10 +35,13 @@ import { NavLink, Link} from "react-router-dom";
                 <a class="nav-link " href="/menu">Menu</a>
               </li>
               </Link>
-
+              
+              <Link to="/about">
               <li class="nav-item">
                 <a class="nav-link" href="/about">About</a>
               </li>
+              </Link>
+
               <li class="nav-item">
                 <a class="nav-link" href="/contact">Contact</a>
               </li>
