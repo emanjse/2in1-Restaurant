@@ -3,7 +3,7 @@
 # Demo
 [2in1Kurdistan](https://2in1kurdistan.netlify.app/).
 
-#Pages
+# Pages
 Home
 Menu
 BookTable
